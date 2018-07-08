@@ -1,0 +1,30 @@
+---
+layout: main
+---
+
+{% for post in site.entries %}
+<article class="post">
+  {% if post.img %}
+    <div class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})"></div>
+  {% endif %}
+  <div class="post-content">
+    <h2 class="post-title">{{post.title}}</h2>
+    {% for paragraph in post.description %}
+        <p>{{ paragraph }}</p>
+    {% endfor %}
+    {% for audio in post.audios %}
+      <p><audio controls>
+        <source src="{{"/assets/audio/" | prepend: site.baseurl | append : audio}}" type="audio/mpeg">
+      </audio></p>
+    {% endfor %}
+    {% for video in post.videos %}
+      <p><video width="320"
+                height="240"
+                poster="{{"/assets/img/" | prepend: site.baseurl | append : post.img}}"
+                controls>
+        <source src="{{"/assets/video/" | prepend: site.baseurl | append : video}}" type="video/mp4">
+      </video></p>
+    {% endfor %}
+  </div>
+</article>
+{% endfor %}

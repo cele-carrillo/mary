@@ -1,0 +1,28 @@
+title: Happy Birthday Mary!
+description: >
+  Important description to be defined…
+
+permalink: ':title/'
+baseurl: ""
+url: ""
+
+author: Mary
+author-img: mary.png
+about-author: Happy Birthday!
+
+
+markdown: kramdown
+plugins:
+  - jemoji
+
+# Emojis list: https://www.fileformat.info/info/emoji/list.htm
+entries:
+  - title: Georgia 
+    description:
+      - 'some text :smiley:'
+    img: georgia.png
+    audios:
+      - audio1.mp3
+    videos:
+      - video1.mp4
+exclude: ["Gemfile", "Gemfile.lock"]
