@@ -17,32 +17,38 @@ plugins:
 
 # Emojis list: https://www.fileformat.info/info/emoji/list.htm
 entries:
+  - img: martha-danielle.jpg
+    video: '2d120a87b9974a88ed4b141dbe05b6ff'
+
   - img: danielle-h.jpg
     video: 'd504c3f665726d4bc855d7cc81cddb0c'
 
   - img: lynette.jpg
     video: '3223e45dd55f37e416a748224ee7d0f7'
 
+  - img: georgia.png
+    video: '0e9c1af817914e77c0b2067db6cd49c7'
+
   - img: april.jpg
     video: '5cddf66d6dee4f8e6ec39198b3cd60a6'
 
   - img: anja.jpg
     video: '761367e4ee78d26ecf8116f74d151115'
-
-  - img: georgia.png
-    video: '0e9c1af817914e77c0b2067db6cd49c7'
+  
+  - img: bianca.jpg
+    video: '1ffdc2979e96d9564fabb60843ce2576'
 
   - img: lucy.jpg
     video: 'ff247ed66ecfb11b6e06488bfdedfeb8'
+
+  - img: stacey.jpg
+    video: '3858a4f2dda584bfce46c297644338f2'
 
   - img: eddie.jpg
     video: '2ec56a8f8b01c2161c55286ddab92865'
 
   - img: lauren.jpg
     video: '5e0b8962b65db172b6392b4c36f293a0'
-
-  - img: martha-danielle.jpg
-    video: '2d120a87b9974a88ed4b141dbe05b6ff'
 
   - img: friend.jpg
     video: '67b538b29f278c17f95cedc3b978fcdc'
@@ -51,9 +57,6 @@ entries:
     video: '54aabf178b3075c24e906d9417a13b03'
 
   - img: daniel.jpg
-    video: '3858a4f2dda584bfce46c297644338f2'
-
-  - img: stacey.jpg
     video: '3858a4f2dda584bfce46c297644338f2'
 
   - img: chloe-jess.jpg
